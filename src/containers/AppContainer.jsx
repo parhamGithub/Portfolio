@@ -40,6 +40,10 @@ function AppContainer() {
     setMode(prevMode => prevMode === "light" ? "dark" : "light");
   };
 
+  const handlePageChange = index => {
+    setPageNumber(index);
+  }
+
   return (
     <MainContext.Provider
       value={{
@@ -58,7 +62,7 @@ function AppContainer() {
         <PagesContainer>
           <SwipeableViews
             index={pageNumber}
-            onChangeIndex={handlePageNumber}
+            onChangeIndex={handlePageChange}
           >
             <Page pageNumber={pageNumber} index={0}>
               <Home helmetTitle="وبسایت شخصی پرهام افشاری" />

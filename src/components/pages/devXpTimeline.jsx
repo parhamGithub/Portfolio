@@ -17,11 +17,11 @@ const DevXpTimeline = ({ loading, color, icon, data }) => {
     const theme = useTheme();
 
     return (
-
         <Timeline position="right" sx={{ direction: "ltr" }}>
             {
                 data.map((item, index) => (
                     <Slide
+                        key={index}
                         direction="up"
                         in={loading}
                         style={{
@@ -30,7 +30,7 @@ const DevXpTimeline = ({ loading, color, icon, data }) => {
                                 : "0ms"
                         }}
                     >
-                        <TimelineItem key={index}>
+                        <TimelineItem>
                             <TimelineSeparator>
                                 <TimelineDot
                                     color={color}
@@ -87,7 +87,6 @@ const DevXpTimeline = ({ loading, color, icon, data }) => {
                 ))
             }
         </Timeline>
-
     )
 };
 

@@ -18,8 +18,6 @@ import { projectsData } from "../../constants/projectsData";
 const ShowProjects = () => {
     const [loading, setLoading] = useState(false);
 
-
-
     useEffect(() => {
         setLoading(true);
 
@@ -33,6 +31,7 @@ const ShowProjects = () => {
             {
                 projectsData.map((project, index) => (
                     <Grid
+                        item
                         key={index}
                         xs={12} sm={6} md={6} lg={6}
                         sx={{ px: 2, mb: 2, mt: 1 }}
@@ -82,7 +81,7 @@ const ShowProjects = () => {
                                         >
                                             <EllipsisText
                                                 text={project.info}
-                                                length={"100"}
+                                                length={100}
                                             />
                                         </Typography>
                                     </CardContent>
