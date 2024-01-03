@@ -17,19 +17,19 @@ export const devWorkInfo = [
     {
         tooltipTitle: "تعداد دوره های من",
         icon: <SchoolRounded />,
-        total: 25,
+        total: 4,
         color: "lightcoral"
     },
     {
         tooltipTitle: "تعداد پروژه های من",
         icon: <DataObjectRounded />,
-        total: 34,
+        total: 5,
         color: "lightslategray"
     },
     {
         tooltipTitle: "تعداد پروژه های به پایان رسیده",
         icon: <DomainVerificationRounded />,
-        total: 12,
+        total: 5,
         color: "lightseagreen"
     },
 ];

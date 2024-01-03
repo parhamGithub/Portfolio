@@ -10,13 +10,14 @@ const Skills = () => {
     const [reactJs, setReactJs] = useState(0);
     const [python, setPython] = useState(0);
     const [git, setGit] = useState(0);
+    const [redux, setRedux] = useState(0)
 
-    const { htmlSkill, cssSkill, jsSkill, reactSkill, pythonSkill, gitSkill } = devSkills;
+    const { htmlSkill, cssSkill, jsSkill, reactSkill, pythonSkill, gitSkill, reduxSkill } = devSkills;
 
-    const devSkillsList = [htmlSkill, cssSkill, jsSkill, reactSkill, pythonSkill, gitSkill];
-    const skillsList = [html, css, javascript, reactJs, python, git];
-    const skillsProfessionalityNumberList = [80, 75, 60, 75, 65, 57]
-    const setSkillsList = [setHtml, setCss, setJavascript, setReactJs, setPython, setGit];
+    const devSkillsList = [htmlSkill, cssSkill, jsSkill, reactSkill, reduxSkill, pythonSkill, gitSkill];
+    const skillsList = [html, css, javascript, reactJs, redux, python, git];
+    const skillsProfessionalityNumberList = [80, 75, 60, 75, 50, 65, 57]
+    const setSkillsList = [setHtml, setCss, setJavascript, setReactJs, setRedux, setPython, setGit];
 
     useEffect(() => {
         const timer = setInterval(() => {

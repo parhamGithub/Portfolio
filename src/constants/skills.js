@@ -4,7 +4,8 @@ import {
     JsIcon,
     ReactIcon,
     PythonIcon,
-    GitIcon
+    GitIcon,
+    ReduxIcon
 } from "../assets/icons";
 
 export const devSkills = {
@@ -44,4 +45,12 @@ export const devSkills = {
         icon: GitIcon,
         color: "secondary",
     },
+
+    reduxSkill: {
+        id: 6,
+        name: "Redux",
+        icon: ReduxIcon,
+        color: "secondary",
+    }
+
 }

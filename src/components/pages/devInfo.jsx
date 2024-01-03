@@ -34,10 +34,10 @@ const DevInfo = () => {
             <Info>
                 نام و نام خاونارگی: پرهام افشاری
             </Info>
-            <Info>سن: 25</Info>
+            <Info>سن: 26</Info>
             <Info>شهر: تهران</Info>
             <Info>parhamafshari666@gmail.com: ایمیل</Info>
-            <Info>شماره موبایل: 09122465710</Info>
+            <Info>شماره موبایل: 09190211639</Info>
         </>
     )
 }

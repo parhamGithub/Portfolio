@@ -32,7 +32,6 @@ const DevWorkCount = () => {
                                         end={item.total}
                                         duration={2}
                                     />
-                                    {item.total}
                                 </Typography>
                             } sx={{
                                 p: 2,
